@@ -1,0 +1,93 @@
+:root {
+    --baby-powder: #f7f7f2ff;
+--lemon-chiffon: #dee1b7ff;
+--pale-azure: rgb(154, 224, 250);
+--deep-sky-blue: #1fc3ffff;
+}
+
+.AB{
+    height: 10svh;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 20fr;
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+p {
+    color: black;
+}
+
+#Topbar{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 40px 0px ;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    background-color: lemonchiffon;
+    display: flex; 
+    padding: 20px 20px ;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 10px;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--pale-azure);
+}
+
+p {
+    margin: 100px;
+    text-align: right;
+  
+}
+
+.TB {
+
+        background-color: var(--lemon-chiffon);
+        padding: 9px 25px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+}
+
+#box {
+    display: flex;
+}
+
+#box1 {
+    display: flex;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: var(--deep-sky-blue);
+    padding: 0px;
+    margin: 20px;
+    bottom: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: var(--pale-azure);
+}
